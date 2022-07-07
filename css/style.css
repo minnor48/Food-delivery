@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+   }
+
+
+body {
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h4 {
+    width: 240px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+
+}
+
+.page {
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.footer {
+    padding: 20px;
+    background-color:black;
+    margin-top: auto;
+}
+
+.form {
+    max-width: 750px;
+    margin: auto;
+    background-color: darkslategray;
+}
+
+.form_body {
+
+}
+
+.form_title {
+    color: darkkhaki;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 30px 230px;
+}
+
+.otziv {
+    color: white;
+    margin-bottom: 35px;
+    margin-left: 230px;
+    text-transform: uppercase;
+}
+
+.form_item {
+    margin: 0px 0px 20px 0px;
+}
+
+.form_label {
+    color: white;
+    font-size: 18px;
+    margin: 0px 0px 10px 160px;
+}
+
+.form_input {
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+
+textarea.form_input {
+    min-height: 205px;
+    resize: vertical;
+    padding: 20px;
+}
+
+.file {
+
+}
+
+.file_item {
+    position: relative;
+
+}
+
+.file_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.file_button {
+    margin-bottom: 20px;
+    margin-left: 180px;
+    display: inline-flex;
+    min-height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 0px 20px;
+}
+
+.form_button {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;    
+}
+
+.form_button:hover {
+    background-color: #615d5d;
+}
+
+
+.total {
+    font-size: 20px;
+    width: 240px;
+    border-bottom: 2px solid black;
+
+}
+
+.total_summ {
+    
+    font-size: 20px;
+    
+}
+
+
+.drop_menu {
+    display: none;
+    position: fixed;
+    vertical-align: top;
+    padding: 10px 15px;
+    margin-top: 115px;
+    margin-left : 1600px;
+    max-width: 275px;
+    min-height: 180px;
+    max-height: 602px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 3px rgba(103, 99, 99, 0.7);
+    text-shadow: 0 1px 0 #615d5d;
+    border: 2px solid rgb(245, 237, 237);
+    background-color: white;
+    z-index: 3;
+    
+     
+  }
+
+
+.korsina {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    border: 5px;
+    margin-left : 900px;
+    
+}
+.button_hidden {
+    background-color:deepskyblue;
+    height: 39px;
+    width: 107px;
+    font-size: 20x;
+}
+
+.header {
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    padding-top: 40px;
+  }
+ 
+  .logo {
+      font-size: 30px;
+      font-weight: 700;
+      color: white;
+  }
+  
+  a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav {
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+
+.nav_link {
+    color:whitesmoke;
+    text-decoration:none;
+    transition: color 0.2s linear;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.nav_link:hover {
+    color:deepskyblue;
+}
+
+.catalog_menu {
+   display: inline-block;
+   margin: 15px;
+   margin-top: 15px;
+   padding: 15px;
+  
+   
+   
+   
+     
+}
+
+.tovar {
+    position: relative;
+    top: -208px;
+    left: 67px;
+    color: white;
+    font-size: 40px;
+    text-transform:uppercase;
+    border-bottom: 2px solid white;
+    width: 235px;
+    text-decoration: none;
+    
+    
+}
+
+.chena {
+    position: relative;
+    top: -204px;
+    left: 66px;
+    color: white;
+    font-size: 40px;
+    text-transform:uppercase;
+    
+}
+
+.container {
+    
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 100px;
+}
+
+
+.menu {
+    margin: 15px;
+    margin-top: 60px;
+    display: inline-block;
+    max-width: 270px;
+    min-height: 180px;
+    padding: 15px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid rgb(15, 15, 15);
+    width: 1640px;
+    background-color: ivory;
+    
+    
+    
+}
+
+.image-center {
+    display: block;
+    margin: auto;
+}
+
+.knopki {
+    display: flex;
+    font-size: 20px;
+    user-select: none;
+    border: 1px solid rgb(15, 15, 15);
+    width: 68px;
+    
+}
+
+.minus {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight:bolder;
+   
+}
+.minus:hover {
+    background-color: aqua;
+}
+
+
+
+.plus {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight:bolder;
+}
+.plus:hover {
+    background-color: aqua;
+}
+
+
+.itog {
+    margin-left: 0px;
+}
+
+.corzina {
+    color: whitesmoke;
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 8px;
+    background-color: deepskyblue;
+    width: 100px;
+    font-size: 20px;
+    
+    
+
+}
+
+.tovar-menu {
+    color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: none
+}
+
+.chena-menu {
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    user-select: none;
+    
+    
+}
+
+.cart-item__weight {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-item__top {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.tovarAndPrice {
+    display: flex;
+}
+
+.taimer {
+    display: block;
+    margin: 20px auto;
+    padding: 20px 0 50px;
+    position: relative;
+    text-align: center;
+    width: 49%;
+}
+
+.akchiya {
+    background:url("../img/Фон акции3.jpg") center;
+    background-color: deepskyblue;
+    margin: -90px auto;
+    border: 2px #615d5d solid;
+    min-height: 650px;
+    max-height: 650px;
+    min-width: 550px;
+}
+
+.akchiya_text {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: cornsilk;
+    font-family: fantasy;
+    padding: 15px;
+    font-size: 50px;
+    align-items: center;
+}
+
+#group {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.time {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+}
+
+.time h2 {
+	margin: 0 0 10px;
+	font-size: 48px;
+}
+
+.time small {
+	font-size: 26px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.cart-wrapper {
+    border: 1px solid black;
+}
+
+.cart-item {
+
+}
+
+.cart-item__top {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dee2e6;
+	
+}
+
+.cart-item__img  {
+    margin: auto;  
+
+}
+
+.cart-item__img img {
+    max-width: 150px;
+	height: auto;
+}
+
+.cart-item__desc {
+	padding-top: 15px;
+	padding-left: 15px;
+	max-width: 208px;
+}
+
+.cart-item__title {
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 5px;
+    
+}
+
+.cart-item__weight {
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.cart-item__details {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+
+.price {
+    margin: auto;
+}
+
+.button_del {
+       
+}
+
+img {
+    border-radius: 10px;
+}
+
+.cafe {
+    margin: 15px;
+    margin-top: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: dimgray;
+    
+  
+}
+
+.cafe-info-white {
+    margin: 15px;
+    display: inline-block;
+    max-width: 300px;
+    min-height: 235px;
+    color: black;
+    
+    
+    width: 1640px;
+    background-color: rgb(61, 61, 61);
+
+}
+
+
+.cafe-img {
+   
+    
+}
+
+.cafe-title {
+    color: honeydew;
+    font-size: 22px;
+
+}
+
+.cafe-day {
+    margin-top: 40px;
+    color: cadetblue;
+    font-size: 15px;
+    text-transform: none
+
+}
+
+.cafe-time {
+    margin-top: 5px;
+    color: cadetblue;
+    font-size: 15px;
+    text-transform: none
+
+}
+
+.cafe-img-bot{
+    display: flex;
+}
+
+.cafe-footer {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    text-transform: none;
+    margin-top: 60px;
+}
+
+.cafe-tel {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.parallax {
+    top: 110px;
+    background-image: url(/img/loft3.jpg);
+    height: 850px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    position: relative;
+}
+.parallax .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.contacts {
+    position: relative;
+    margin-top: 150px;
+}
+
+.contact-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.contact-info {
+    margin: 50px;
+    font-family: cursive;
+}
+
+.dostavka_form {
+    height: 800px;
+    width: 1400px;
+    margin-top: 120px;
+    background-image: url(/img/dostavka1.jpg);
+    padding: 10px;
+}
+
+.dostavka_verh {
+    margin: 0 auto;
+    width: 62%;
+}
+
+.dostavka_form_item {
+    margin: 41px;
+}
+
+.user_address {
+    display: flex;
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.dostavka_form_label {
+   
+}
+
+button.dostavka_form_button {
+    margin: auto;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color: orange;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 10%;
+}
+
+
+.tipdostavki {
+    color: orange;
+    text-align: center;
+    font-size: 34px;
+}
+
+.radionuttons {
+    text-align: center;
+    margin: -9px;
+    width: 100px;
+    display: inline-block;
+   
+    height: 35px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+   
+}
+
+
+label.radio_label {
+    border: 2px solid black;
+    background-color: white;
+    padding: 15px;
+}
+
+label.radio_label::before {
+    content: "";
+
+}
+
+input[type="radio"] {
+    display: none;
+    background-color: white;
+    padding: 15px;
+   
+}
+
+
+input[type="radio"]:checked + label.radio_label {
+    background-color: orange;
+    padding: 15px;
+    
+}
+
+.button_hidden_link {
+    text-decoration: none;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+   
+
+}
+
+.modal-content {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    font-size: 32px;
+    border: 5px solid orange;
+    color: orange;
+}
+
+.close {
+    color: orange;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

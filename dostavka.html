@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Доставка еды</title>
+    <link rel="stylesheet" href="css/style.css" 
+</head> 
+<body>
+
+    <div class="page">
+        <div class="header">
+            <div class="logo">Доставка еды по всему городу</div>
+            <nav class="nav">
+                <a class="nav_link" href="main.html">Меню</a>
+                <a class="nav_link" href="contacts.html">Контакты</a>
+                <a class="nav_link" href="akchiya.html"> Акции</a>
+                <a class="korsina"><img src="img/корзина.png" width="50" height="50"></a>
+            </nav>
+        </div>
+
+        <div class="drop_menu " data-id="00">
+            <h4> корзина </h4>
+            <br>
+            <span class="total"> Итого </span>
+            <span class="total_summ"> 0 </span>
+            <span class="total_summ"> Руб </span>
+            <br>
+            <br>
+            <button class="button_hidden"><a class="button_hidden_link" href="dostavka.html">Оформить заказ</a></button>
+            <div class="cart-wrapper">
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="dostavka_form">
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span data-close class="close">&times;</span>
+                        <p>модальное окно!</p>
+                    </div>
+                </div>
+                <form action="#" id="form" class="dostavka_form_body">
+
+
+
+
+                    <div class="dostavka_verh">
+
+
+                        <div class="tipdostavki">
+                            <p>Выберите тип оплаты</p>
+                            <div class="radionuttons">
+                                <input class="radio_input" id="radio1" type="radio" value="Картой" name="nameradio"
+                                    checked>
+                                <label class="radio_label" for="radio1">Картой</label>
+                            </div>
+                            <div class="radionuttons">
+                                <input class="radio_input" id="radio2" type="radio" value="Наличные" name="nameradio">
+                                <label class="radio_label" for="radio2">Наличные</label>
+                            </div>
+
+                        </div>
+                        <div class="dostavka_form_item">
+                            <label for="formName" class="form_label">*</label>
+                            <input id="formName" type="text" name="name" class="form_input _req" placeholder="Имя">
+                        </div>
+                        <div class="dostavka_form_item">
+                            <label for="formEmail" class="form_label">*</label>
+                            <input id="formEmail" type="email" name="email" class="form_input _req"
+                                placeholder="E-mail">
+                        </div>
+                        <div class="dostavka_form_item">
+                            <label for="formPhone" class="form_label">*</label>
+                            <input id="formPhone" type="text" name="phone" class="form_input _req"
+                                placeholder="Телефон">
+                        </div>
+                        <div class="dostavka_form_item">
+                            <label for="formStreet" class="form_label">*</label>
+                            <input id="formStreet" type="text" name="street" class="form_input _req"
+                                placeholder="Улица">
+                        </div>
+                        <div class="dostavka_form_item">
+                            <label for="formHome" class="form_label">*</label>
+                            <input id="formHome" type="text" name="home" class="form_input _req" placeholder="Дом">
+
+                        </div>
+                    </div>
+                    <div class="user_address">
+
+                        <label for="formApartment" class="dostavka_form_label">*</label>
+                        <input id="formApartment" type="text" name="apartment" class="form_input _req"
+                            placeholder="Квартира">
+                        <label for="formLobby" class="dostavka_form_label">*</label>
+                        <input id="formLobby" type="text" name="lobby" class="form_input _req" placeholder="Подьезд">
+                        <label for="formFloor" class="dostavka_form_label">*</label>
+                        <input id="formFloor" type="text" name="floor" class="form_input _req" placeholder="Этаж">
+                    </div>
+
+                    <button  type="submit" class="dostavka_form_button">Оформить</button>
+
+            </div>
+
+
+            </form>
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="form">
+                <form action="#" id="form" class="form_body">
+                    <h1 class="form_title">Обратная связь</h1>
+                    <p class="otziv"> Останьте ваше пожелание или отзыв </p>
+                    <div class="verh">
+                        <div class="form_item">
+                            <label for="formName" class="form_label">*</label>
+                            <input id="formName" type="text" name="name" class="form_input _req" placeholder="Имя">
+                        </div>
+                        <div class="form_item">
+                            <label for="formEmail" class="form_label">*</label>
+                            <input id="formEmail" type="email" name="email" class="form_input _req"
+                                placeholder="E-mail">
+                        </div>
+                        <div class="form_item">
+                            <label for="formPhone" class="form_label">*</label>
+                            <input id="formPhone" type="text" name="phone" class="form_input _req"
+                                placeholder="Телефон">
+                        </div>
+                    </div>
+                    <div class="formMessage">
+                        <div class="form_item">
+                            <label for="formMessage" class="form_label">*</label>
+                            <textarea name="message" id="formMessage" cols="30" rows="10" class="form_input"
+                                placeholder="Текст сообщения"></textarea>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="form_label">Прикрепить фото</div>
+                        <div class="file">
+                            <div class="file_item">
+                                <input id="formImage" accept=".jpg, .png" type="file" name="image" class="file_input">
+                                <div class="file_button">Выбрать</div>
+                            </div>
+                        </div>
+                        <button  type="submit" class="form_button">Отправить</button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </footer>
+
+
+
+
+    </div>
+
+
+    </body>
+
+    <script src="js/menu.js"></script>
+    <script src="js/form2.js"></script>
+
+</html>

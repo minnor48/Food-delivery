@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1640px">
+    <title>Доставка еды</title>
+    <link rel="stylesheet" href="css/style.css" 
+</head> 
+<body>
+    <div class="page">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span data-close class="close">&times;</span>
+                <p>модальное окно!</p>
+            </div>
+        </div>
+        <div class="header">
+            <div class="logo">Доставка еды по всему городу</div>
+            <nav class="nav">
+                <a class="nav_link" href="main.html">Меню</a>
+                <a class="nav_link" href="contacts.html">Контакты</a>
+                <a class="nav_link" href="akchiya.html"> Акции</a>
+                <a class="korsina"><img src="img/корзина.png" width="50" height="50"></a>
+            </nav>
+        </div>
+
+        <div class="drop_menu " data-id="00">
+            <h4> корзина </h4>
+            <br>
+            <span class="total"> Итого </span>
+            <span class="total_summ"> 0 </span>
+            <span class="total_summ"> Руб </span>
+            <br>
+            <br>
+            <button class="button_hidden"><a class="button_hidden_link" href="dostavka.html">Оформить заказ</a></button>
+            <div class="cart-wrapper">
+
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="catalog_menu">
+                <img class="product-img" src="img/сашими.jpg" alt="sashimi" width="350" height="350">
+                <div class="tovar">
+                    <a class="nav_link" href="sashimi.html">Сашими</a>
+                </div>
+                <p class="chena">300-500 руб</p>
+            </div>
+            <div class="catalog_menu">
+                <img class="product-img" src="img/ролл.jpg" alt="rolli" width="350" height="350">
+                <div class="tovar">
+                    <a class="nav_link" href="rolli.html">Роллы</a>
+                </div>
+                <p class="chena">300-450 руб</p>
+            </div>
+
+            <div class="catalog_menu">
+                <img class="product-img" src="img/Пицца.jpg" alt="pizza" width="350" height="350">
+                <div class="tovar">
+                    <a class="nav_link" href="Pizza.html">Пицца</a>
+                </div>
+                <p class="chena">600-800 руб</p>
+            </div>
+
+            <div class="catalog_menu">
+                <img class="product-img" src="img/Напитки.jpg.crdownload" alt="napitki" width="350" height="350">
+                <div class="tovar">
+                    <a class="nav_link" href="napitki.html">Напитки</a>
+                </div>
+                <p class="chena">70-150 руб</p>
+
+            </div>
+            <div class="catalog_menu">
+                <img class="product-img" src="img/снеки.jpg" alt="sneki" width="350" height="350">
+                <div class="tovar">
+                    <a class="nav_link" href="sneki.html">Снеки</a>
+                </div>
+                <p class="chena">120-210 руб</p>
+            </div>
+            <div class="catalog_menu">
+                <img class="product-img" src="img/салаты.jpg" alt="salati" width="350" height="350">
+                <div class="tovar">
+                    <a class="nav_link" href="salati.html">Салаты</a>
+                </div>
+                <p class="chena">200-390 руб</p>
+            </div>
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="form">
+                <form action="#" id="form" class="form_body">
+                    <h1 class="form_title">Обратная связь</h1>
+                    <p class="otziv"> Останьте ваше пожелание или отзыв </p>
+                    <div class="verh">
+                        <div class="form_item">
+                            <label for="formName" class="form_label">*</label>
+                            <input id="formName" type="text" name="name" class="form_input _req" placeholder="Имя">
+                        </div>
+                        <div class="form_item">
+                            <label for="formEmail" class="form_label">*</label>
+                            <input id="formEmail" type="text" name="email" class="form_input _req" placeholder="E-mail">
+                        </div>
+                        <div class="form_item">
+                            <label for="formPhone" class="form_label">*</label>
+                            <input id="formPhone" type="text" name="phone" class="form_input _req"
+                                placeholder="Телефон">
+                        </div>
+                    </div>
+                    <div class="formMessage">
+                        <div class="form_item">
+                            <label for="formMessage" class="form_label">*</label>
+                            <textarea name="message" id="formMessage" cols="30" rows="10" class="form_input"
+                                placeholder="Текст сообщения"></textarea>
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="form_label">Прикрепить фото</div>
+                        <div class="file">
+                            <div class="file_item">
+                                <input id="formImage" accept=".jpg, .png" type="file" name="image" class="file_input">
+                                <div class="file_button">Выбрать</div>
+                            </div>
+                        </div>
+                        <button type="submit" class="form_button">Отправить</button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </footer>
+
+    </div>
+    </body>
+
+
+    <script src="js/menu.js"></script>
+
+    <script src="js/form2.js"></script>
+
+
+</html>
